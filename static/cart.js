@@ -89,7 +89,5 @@ const updateCartTotal = () => {
     total = total + price * 1;
   }
   total = Math.round(total * 100) / 100;
-  document.getElementsByClassName("totalPrice")[0].innerText = `Rs. ${total}`;
-  const subtotal = document.getElementById("subtotal");
-  subtotal.innerText = cartRows.length;
-};
+  
+  
